@@ -34,6 +34,8 @@ Portfolio sites are a good way to showcase your skills to the world and especial
 | ---- | ------------------- | ----------- |
 | 0-12 | 13-16               | 17-20       |
 
+<br/>
+
 #### Marking Guide
 
 | Domain        | Task                                              | Point(s) |          |
