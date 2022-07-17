@@ -20,6 +20,7 @@ Take some time to read over the docs before we begin.
 | ---- | ------------------- | ----------- |
 | 0-12 | 13-16               | 17-20       |
 
+<br/>
 ### Capstone 4 Marking Guide
 
 | Domain          | Task                                              | Point(s) |          |
