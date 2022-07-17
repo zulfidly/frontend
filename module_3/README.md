@@ -1,10 +1,10 @@
-Welcome to Capstone 3.
+# 💎 Capstone 3
 
 This is a fun one, so let’s begin!
 
 Different colours invoke different emotions in us, that’s why top companies spend resources and time to refine their colour schemes to tell their story.
 
-In this capstone, will be creating a random colour scheme generator like colorhunt using the colorg API
+In this capstone, will be creating a random colour scheme generator like colorhunt using the colrorg API
 
 This project will help you solidifying all the previous concepts of calling APIs, built a fun app without worrying too much about other topics in JavaScript and frontend
 
