@@ -1,6 +1,6 @@
 # Frontend
 
-Use this repository to submit your assignments in Coding Fundamentals course.
+Use this repository to submit your assignments in this Frontend course.
 
 ### Student Guide
 
