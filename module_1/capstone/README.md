@@ -1,19 +1,53 @@
-# 💎 Capstone 1
+# Capstone 1
 
 Welcome to your first capstone!
-t that’ll really test your abilities and find out whether or not you’ve been paying attention 😏
+Since this module itself does not contain much coding and it's just an introductory module.
 
-In order to successfully score points, you need to use what you’ve learnt so far in VueJS to create a Pokédex app.
+The Capstone itself will be fairly simple.
 
-The API service we will be using is [https://pokeapi.co/](https://pokeapi.co/)
-Take some time to read over the docs before we begin.
+As a frontend developer, it's of paramount importance to know important npm packages because it helps us
+work more efficiently.
 
-1. Create a Vue application with the Vue CLI
-2. Make an API call to pokeapi
-3. With the returned results, add it into the `data()` of your app
-4. Using a `v-for` , loop through the results and display the Pokemon
-5. Style each card of Pokemon (TailwindCSS is optional)
-6. Display all name, weight, height & all abilities/types for each Pokemon
+This is because we can use pre-written code instead of reinventing the wheel.
+
+### Instructions
+
+##### Find & Install A Package For
+
+- **Authentication**
+  Handle registration, login and making sure the right user has access to the right data
+  <br>
+- **Date Manipulation/Formatting**
+  Managing Date & Time because it's is an important yet complicated aspect in applications
+  <br>
+- **UI Components**
+  Helps us build components that has many configurations/variations to avoid rewriting entire components from scrattch
+  <br>
+- **Styling**
+  Gives us pre-written classes and configuration that we can apply to our elements
+  <br>
+- **API calls**
+  Helps us make API calls and handle requests
+  <br>
+- **Environment variables**
+  Hide sensitive and confidential data from our users (eg. API keys)
+  <br>
+
+- **Linters**
+  Helps us maintain code formatting/readability for scaling
+  <br>
+
+- **Documents**
+  Convert data we need to display to PDFs
+  <br>
+
+- **Email Handling**
+  Implements email handling to send information to users via email
+  <br>
+
+- **Data Seeding**
+  Generate mock data to test our frontend components on
+  <br>
 
 ### Capstone General Scoring Guide
 
@@ -21,19 +55,17 @@ Take some time to read over the docs before we begin.
 | ---- | ------------------- | ----------- |
 | 0-12 | 13-16               | 17-20       |
 
-### Capstone 4 Marking Guide
+### Capstone 1 Marking Guide
 
-| Domain          | Task                                              | Point(s) |          |
-| --------------- | ------------------------------------------------- | -------- | -------- |
-| Creation        | Create a Vue Application using CLI                | 2        | Required |
-| API Calls       | Create a method that calls the pokeapi API        | 2        | Required |
-|                 | Handle failed API calls                           | 1        | Optional |
-|                 | Use a lifecycle hook to call the API on page load | 2        | Required |
-| Data Management | Loop through the list of Pokemon that you receive | 2        | Required |
-|                 | Add a thumbnail for each Pokemon                  | 1        | Required |
-|                 | Display all abilities/types that each Pokemon has | 2        | Required |
-|                 | Add pagination                                    | 1        | Optional |
-|                 | Add filter to search Pokemon                      | 2        | Optional |
-| Style           | Add a card style to each Pokemon                  | 2        | Required |
-|                 | Arrange them nicely (eg 3x3 or 4x4)               | 2        | Optional |
-|                 | Make page responsive                              | 1        | Optional |
+| Domain | Task                                              | Point(s) |          |
+| ------ | ------------------------------------------------- | -------- | -------- |
+|        | Authentication                                    | 2        | Required |
+|        | Date/Time Manipulation/Formatting                 | 2        | Required |
+|        | UI Components                                     | 2        | Required |
+|        | Use a lifecycle hook to call the API on page load | 2        | Required |
+|        | Styling                                           | 2        | Required |
+|        | API calls                                         | 2        | Required |
+|        | Linters                                           | 2        | Optional |
+|        | Documents                                         | 2        | Optional |
+|        | Email Handling                                    | 2        | Optional |
+|        | Data Seeding                                      | 2        | Optional |
