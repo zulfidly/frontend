@@ -12,7 +12,7 @@ This is because we can use pre-written code instead of reinventing the wheel.
 
 ### Instructions
 
-##### Find & Install A Package For
+#### Find & Install A Package For
 
 - **Authentication**
   <br>
