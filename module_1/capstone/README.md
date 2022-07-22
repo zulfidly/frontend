@@ -22,7 +22,7 @@ This is because we can use pre-written code instead of reinventing the wheel.
   Managing Date & Time because it's is an important yet complicated aspect in applications
 - **UI Components**
   <br>
-  Helps us build components that has many configurations/variations to avoid rewriting entire components from scrattch
+  Helps us build components that has many configurations/variations to avoid rewriting entire components from scratch
 - **Styling**
   <br>
   Gives us pre-written classes and configuration that we can apply to our elements
@@ -53,9 +53,9 @@ This is because we can use pre-written code instead of reinventing the wheel.
 
 ### Capstone General Scoring Guide
 
-| Fail | Exceed Expectations | Outstanding |
-| ---- | ------------------- | ----------- |
-| 0-12 | 13-16               | 17-20       |
+| Fail | Meet Expectations | Outstanding |
+| ---- | ----------------- | ----------- |
+| 0-11 | 12-16             | 17-20       |
 
 ### Capstone 1 Marking Guide
 
