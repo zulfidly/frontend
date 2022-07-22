@@ -10,7 +10,7 @@ This project will help you solidifying all the previous concepts of calling APIs
 
 ### Reference
 
-colrorg API - [https://colr.org](https://colr.org) <br/>
+colrorg API - [https://colr.org/api.html](https://colr.org/api.html/) <br/>
 colorhunt - [https://colorhunt.co/](https://colorhunt.co/)
 
 1. Start with a `index.html`
@@ -28,7 +28,7 @@ colorhunt - [https://colorhunt.co/](https://colorhunt.co/)
 
 | Fail | Exceed Expectations | Outstanding |
 | ---- | ------------------- | ----------- |
-| 0-12 | 13-16               | 17-20       |
+| 0-11 | 12-16               | 17-20       |
 
 ### Marking Guide
 
@@ -39,11 +39,11 @@ colorhunt - [https://colorhunt.co/](https://colorhunt.co/)
 |               | Place `<script>` and `<style>` at a correct place                  | 0.25     | Required |
 |               | Import 3rd party CDN correctly                                     | 0.25     | Required |
 | API Calls     | Make GET request to colorg API                                     | 1        | Required |
-|               | Handle unsuccessful calls                                          | 1        | Optional |
+|               | Handle unsuccessful calls                                          | 2        | Optional |
 |               | Make POST request to let user submit their own colour schemes      | 2        | Required |
 | Content       | Populate small cards like colorhunt to display each colour scheme  | 2        | Required |
 |               | Add style to cards (3rd party CSS or own CSS)                      | 2        | Required |
-|               | Match div to corresponding colours                                 | 2        | Required |
+|               | Match div to corresponding colours                                 | 1        | Required |
 |               | Show popup if API call is successful/failed                        | 2        | Optional |
 |               | Display name of corresponding tags                                 | 2        | Optional |
 |               | Create a form or input to let user submit their own colour schemes | 1        | Required |
