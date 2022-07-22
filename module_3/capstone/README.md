@@ -10,7 +10,7 @@ This project will help you solidifying all the previous concepts of calling APIs
 
 ### Reference
 
-colrorg API - [https://colr.org/api.html](https://colr.org/api.html/) <br/>
+colrorg API - [https://colr.org/api.html](https://colr.org/api.html) <br/>
 colorhunt - [https://colorhunt.co/](https://colorhunt.co/)
 
 1. Start with a `index.html`
