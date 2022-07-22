@@ -32,23 +32,24 @@ Portfolio sites are a good way to showcase your skills to the world and especial
 
 | Fail | Exceed Expectations | Outstanding |
 | ---- | ------------------- | ----------- |
-| 0-12 | 13-16               | 17-20       |
+| 0-11 | 12-16               | 17-20       |
 
 <br/>
 
 #### Marking Guide
 
-| Domain        | Task                                              | Point(s) |          |
-| ------------- | ------------------------------------------------- | -------- | -------- |
-| Creation      | Created `index.html` `app.js` `styles.css`        | 1        | Required |
-|               | Linked all files to each other correctly          | 1        | Required |
-|               | Place `<script`> and `<style>` at a correct place | 1        | Required |
-|               | Import TailwindCSS CDN correctly                  | 1        | Required |
-| Content       | Consists of 5 different pages (index counts as 1) | 1        | Required |
-|               | Linked links to other 4 pages                     | 1        | Required |
-|               | Created a navbar component that links all pages   | 2        | Optional |
-|               | Added gallery image from Code Along 2             | 2        | Optional |
-|               | Imported 3rd party JS library to create an effect | 1        | Optional |
-| Documentation | Explained thoroughly the approach of coding       | 1        | Required |
-|               | Cited sources for copied code                     | 1        | Required |
-| Deployment    | Deployed to GitHub pages                          | 2        | Required |
+| Domain        | Task                                                  | Point(s) |          |
+| ------------- | ----------------------------------------------------- | -------- | -------- |
+| Creation      | Created `index.html` `app.js` `styles.css`            | 1        | Required |
+|               | Linked all files to each other correctly              | 1        | Required |
+|               | Place `<script`> and `<style>` at a correct place     | 2        | Required |
+|               | Import TailwindCSS CDN correctly                      | 2        | Required |
+| Content       | Consists of 5 different pages (index counts as 1)     | 1        | Required |
+|               | Linked links to other 4 pages                         | 1        | Required |
+|               | Created a navbar component that links all pages       | 2        | Optional |
+|               | Added gallery image from Code Along 2                 | 2        | Optional |
+|               | Imported 3rd party JS library to create scroll effect | 2        | Optional |
+|               | Add any CSS loading animation                         | 2        | Optional |
+| Documentation | Explained thoroughly the approach of coding           | 1        | Required |
+|               | Cited sources for copied code                         | 1        | Required |
+| Deployment    | Deployed to GitHub pages                              | 2        | Required |
