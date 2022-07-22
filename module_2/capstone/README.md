@@ -1,7 +1,7 @@
-# 💎 Capstone 2
+# Capstone 2
 
 Congrats on making it to the end of module 2.
-Welcome to your second Capstone Project.
+Welcome to your second Capstone.
 
 We will be creating a **portfolio site.**
 
