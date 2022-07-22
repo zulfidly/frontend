@@ -15,39 +15,41 @@ This is because we can use pre-written code instead of reinventing the wheel.
 ##### Find & Install A Package For
 
 - **Authentication**
+  <br>
   Handle registration, login and making sure the right user has access to the right data
-  <br>
 - **Date Manipulation/Formatting**
+  <br>
   Managing Date & Time because it's is an important yet complicated aspect in applications
-  <br>
 - **UI Components**
+  <br>
   Helps us build components that has many configurations/variations to avoid rewriting entire components from scrattch
-  <br>
 - **Styling**
+  <br>
   Gives us pre-written classes and configuration that we can apply to our elements
-  <br>
 - **API calls**
-  Helps us make API calls and handle requests
   <br>
+  Helps us make API calls and handle requests
 - **Environment variables**
+  <br>
   Hide sensitive and confidential data from our users (eg. API keys)
+  <br>
   <br>
 
 - **Linters**
-  Helps us maintain code formatting/readability for scaling
   <br>
+  Helps us maintain code formatting/readability for scaling
 
 - **Documents**
-  Convert data we need to display to PDFs
   <br>
+  Convert data we need to display to PDFs
 
 - **Email Handling**
-  Implements email handling to send information to users via email
   <br>
+  Implements email handling to send information to users via email
 
 - **Data Seeding**
-  Generate mock data to test our frontend components on
   <br>
+  Generate mock data to test our frontend components on
 
 ### Capstone General Scoring Guide
 
