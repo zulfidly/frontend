@@ -1,4 +1,4 @@
-# 💎 Capstone 3
+# Capstone 3
 
 This is a fun one, so let’s begin!
 
@@ -10,10 +10,10 @@ This project will help you solidifying all the previous concepts of calling APIs
 
 ### Reference
 
-colrorg API - [https://colr.org](https://colr.org)
+colrorg API - [https://colr.org](https://colr.org) <br/>
 colorhunt - [https://colorhunt.co/](https://colorhunt.co/)
 
-1. Start with a index.html
+1. Start with a `index.html`
 2. Create `app.js` & `styles.css` and link them into index.html
 3. Import TailwindCSS/Bootstrap/jQuery (optional)
 4. We only need 1 page - `index.html`
