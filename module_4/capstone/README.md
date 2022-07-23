@@ -1,39 +1,44 @@
-# 💎 Capstone 4
+# Capstone 4
 
-This is a big capstone project that’ll really test your abilities and find out whether or not you’ve been paying attention 😉
+When I was a kid, I loved playing solitaire on my computer.
+I was also always so intrigued and impressed at how well the computer handles the game and shuffles it so perfectly.
 
-In order to successfully score points, you need to use what you’ve learnt so far in VueJS to create a Pokédex app.
+So in this Capstone, we will be building a poker card game.
+However, since this is not a game development course, the focus on this project isn't at how well you can implement shuffling algorithms & deal cards.
 
-The API service we will be using is [https://pokeapi.co/](https://pokeapi.co/)
+Instead, we will use the API service [https://deckofcardsapi.com/](https://deckofcardsapi.com/)
 Take some time to read over the docs before we begin.
+<br/>
 
-1. Create a Vue application with the Vue CLI
-2. Make an API call to pokeapi
-3. With the returned results, add it into the `data()` of your app
-4. Using a `v-for` , loop through the results and display the Pokemon
-5. Style each card of Pokemon (TailwindCSS is optional)
-6. Display all name, weight, height & all abilities/types for each Pokemon
+#### Instructions
+
+1. Create a VueJS application using the CLI
+2. Create a function called newDeck that calls the API and returns a new deck
+3. Setup this function to be called on a lifecycle hook on page load
+4. Setup this function to also be called if a user wants to get a new deck
+5. Create a function drawCard that can draw a card
+6. Display all the image of the cards you interact with, from the API
 
 ### Capstone General Scoring Guide
 
 | Fail | Exceed Expectations | Outstanding |
 | ---- | ------------------- | ----------- |
-| 0-12 | 13-16               | 17-20       |
+| 0-11 | 12-16               | 17-20       |
 
-<br/>
+<br>
+
 ### Capstone 4 Marking Guide
 
-| Domain          | Task                                              | Point(s) |          |
-| --------------- | ------------------------------------------------- | -------- | -------- |
-| Creation        | Create a Vue Application using CLI                | 1        | Required |
-| API Calls       | Create a method that calls the pokeapi API        | 1        | Required |
-|                 | Handle failed API calls                           | 1        | Optional |
-|                 | Use a lifecycle hook to call the API on page load | 2        | Required |
-| Data Management | Loop through the list of Pokemon that you receive | 1        | Required |
-|                 | Add a thumbnail for each Pokemon                  | 1        | Required |
-|                 | Display all abilities/types that each Pokemon has | 2        | Required |
-|                 | Add pagination                                    | 2        | Optional |
-|                 | Add filter to search Pokemon                      | 3        | Optional |
-| Style           | Add a card style to each Pokemon                  | 2        | Required |
-|                 | Arrange them nicely (eg 3x3 or 4x4)               | 2        | Optional |
-|                 | Make page responsive                              | 2        | Optional |
+| Domain          | Task                                                  | Point(s) |          |
+| --------------- | ----------------------------------------------------- | -------- | -------- |
+| Creation        | Create a Vue Application using CLI                    | 1        | Required |
+| API Calls       | Create a newDeck function                             | 2        | Required |
+|                 | Create a button hat calls newDeck                     | 2        | Required |
+|                 | Use a lifecycle hook to call newDeck on page load     | 2        | Required |
+| Data Management | Display your card that you draw                       | 2        | Required |
+|                 | Create a function drawCard that lets your draw a card | 2        | Required |
+|                 | Display the number of remaining cards                 | 1        | Required |
+|                 | Create a function that lets you return a drawn card   | 2        | Optional |
+|                 | Reshuffle remaining cards                             | 2        | Optional |
+| Style           | Add card dealing animation                            | 2        | Optional |
+|                 | Add card popup animation when drawn                   | 2        | Optional |
