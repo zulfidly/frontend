@@ -1,9 +1,13 @@
 # Capstone 4
 
 When I was a kid, I loved playing solitaire on my computer.
-I was also always so intrigued and impressed at how well the computer handles the game and shuffles it so perfectly.
 
-So in this Capstone, we will be building a poker card game.
+I was always so intrigued and impressed at how well the computer handles the game and shuffles it so perfectly.
+
+If you were old enough to remember, that was probably the only game we had back then.
+
+So to reminisce my childhood, we will be building a poker card game in this Capstone.
+
 However, since this is not a game development course, the focus on this project isn't at how well you can implement shuffling algorithms & deal cards.
 
 Instead, we will use the API service [https://deckofcardsapi.com/](https://deckofcardsapi.com/)
