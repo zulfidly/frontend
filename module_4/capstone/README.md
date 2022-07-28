@@ -33,16 +33,16 @@ Take some time to read over the docs before we begin.
 
 ### Capstone 4 Marking Guide
 
-| Domain          | Task                                                  | Point(s) |          |
-| --------------- | ----------------------------------------------------- | -------- | -------- |
-| Creation        | Create a Vue Application using CLI                    | 1        | Required |
-| API Calls       | Create a newDeck function                             | 2        | Required |
-|                 | Create a button hat calls newDeck                     | 2        | Required |
-|                 | Use a lifecycle hook to call newDeck on page load     | 2        | Required |
-| Data Management | Display your card that you draw                       | 2        | Required |
-|                 | Create a function drawCard that lets your draw a card | 2        | Required |
-|                 | Display the number of remaining cards                 | 1        | Required |
-|                 | Create a function that lets you return a drawn card   | 2        | Optional |
-|                 | Reshuffle remaining cards                             | 2        | Optional |
-| Style           | Add card dealing animation                            | 2        | Optional |
-|                 | Add card popup animation when drawn                   | 2        | Optional |
+| Domain          | Task                                                         | Point(s) |          |
+| --------------- | ------------------------------------------------------------ | -------- | -------- |
+| Creation        | Create a Vue Application using CLI                           | 1        | Required |
+| API Calls       | Create a newDeck function - this calls the new deck endpoint | 2        | Required |
+|                 | Create a button that calls newDeck                           | 2        | Required |
+|                 | Use a lifecycle hook to call newDeck on page load            | 2        | Required |
+| Data Management | Create a function drawCard that lets your draw a card        | 2        | Required |
+|                 | Display your card that you draw                              | 2        | Required |
+|                 | Display the number of remaining cards                        | 1        | Required |
+|                 | Create a function that lets you return a drawn card          | 2        | Optional |
+|                 | Reshuffle remaining cards                                    | 2        | Optional |
+| Style           | Add card dealing animation                                   | 2        | Optional |
+|                 | Add card popup animation when drawn                          | 2        | Optional |
