@@ -5,6 +5,7 @@ This is a big capstone project that’ll really test your abilities and find out
 In order to successfully score points, you need to use what you’ve learnt so far in VueJS to create a Pokédex app.
 
 The API service we will be using is [https://pokeapi.co/](https://pokeapi.co/)
+
 Take some time to read over the docs before we begin.
 
 #### Instructions
