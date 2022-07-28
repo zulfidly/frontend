@@ -11,10 +11,11 @@ So to reminisce my childhood, we will be building a poker card game in this Caps
 However, since this is not a game development course, the focus on this project isn't at how well you can implement shuffling algorithms & deal cards.
 
 Instead, we will use the API service [https://deckofcardsapi.com/](https://deckofcardsapi.com/)
+
 Take some time to read over the docs before we begin.
 <br/>
 
-#### Instructions
+### Instructions
 
 1. Create a VueJS application using the CLI
 2. Create a function called newDeck that calls the API and returns a new deck
