@@ -8,7 +8,7 @@ The API service we will be using is [https://pokeapi.co/](https://pokeapi.co/)
 
 Take some time to read over the docs before we begin.
 
-#### Instructions
+### Instructions
 
 1. Create a Vue application with the Vue CLI
 2. Make an API call to pokeapi
