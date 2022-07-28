@@ -23,6 +23,10 @@ Take some time to read over the docs before we begin.
 5. Create a function drawCard that can draw a card
 6. Display all the image of the cards you interact with, from the API
 
+### Reference
+
+[Codepen](https://codepen.io/craigcoles/pen/EaNRpa?html-preprocessor=haml) Example
+
 ### Capstone General Scoring Guide
 
 | Fail | Exceed Expectations | Outstanding |
