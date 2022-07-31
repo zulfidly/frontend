@@ -37,7 +37,7 @@ Just plain old Vue3, Pinia, mad coding _skillz_ & some patience.
 
 <br/>
 
-### Capstone 5 Marking Guide
+### Capstone 6 Marking Guide
 
 | Domain         | Task                                                            | Point(s) |          |
 | -------------- | --------------------------------------------------------------- | -------- | -------- |
