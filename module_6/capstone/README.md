@@ -3,6 +3,7 @@
 Time really flies and we're finally on our last Capstone. 😭
 
 It really isn't a coding course without creating a \*drumroll\* **To-Do List App**.
+
 There's also a developer joke that says: every time you create a to-do list app, a puppy dies.
 
 But rest assured, no puppies will be harmed in this Capstone.
