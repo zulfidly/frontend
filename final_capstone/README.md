@@ -8,8 +8,7 @@ Well, perhaps it only makes sense for those of you old enough to remember this g
 We've finally reached here.
 The Final Boss... The Final Capstone.
 
-No API service needed in this Capstone.
-Just plain old Vue3, Pinia, mad coding _skillz_ & some patience.
+This is the time to flex your coding _skillz_.
 
 ### Instructions
 
