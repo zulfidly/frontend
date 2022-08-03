@@ -1,6 +1,6 @@
 # Final Capstone
 
-<img src=https://raw.githubusercontent.com/T31K/WWAWO/master/bowser.png" alt="bowser">
+<img src="https://raw.githubusercontent.com/T31K/WWAWO/master/bowser.png" alt="bowser">
 
 We're now entering Bowser's Castle to fight _the final boss_.
 Well, perhaps it only makes sense for those of you old enough to remember this game (looking at you Gen-Zs....), this is _the final boss_.
