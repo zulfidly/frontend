@@ -32,21 +32,20 @@ colorhunt - [https://colorhunt.co/](https://colorhunt.co/)
 
 ### Marking Guide
 
-| Domain        | Task                                                               | Point(s) |          |
-| ------------- | ------------------------------------------------------------------ | -------- | -------- |
-| Creation      | Created index.html app.js styles.css                               | 0.25     | Required |
-|               | Linked all files to each other correctly                           | 0.25     | Required |
-|               | Place `<script>` and `<style>` at a correct place                  | 0.25     | Required |
-|               | Import 3rd party CDN correctly                                     | 0.25     | Required |
-| API Calls     | Make GET request to colorg API                                     | 1        | Required |
-|               | Handle unsuccessful calls                                          | 2        | Optional |
-|               | Make POST request to let user submit their own colour schemes      | 2        | Required |
-| Content       | Populate small cards like colorhunt to display each colour scheme  | 2        | Required |
-|               | Add style to cards (3rd party CSS or own CSS)                      | 2        | Required |
-|               | Match div to corresponding colours                                 | 1        | Required |
-|               | Show popup if API call is successful/failed                        | 2        | Optional |
-|               | Display name of corresponding tags                                 | 2        | Optional |
-|               | Create a form or input to let user submit their own colour schemes | 1        | Required |
-|               | Make form appear on a popup after clicking a button                | 2        | Optional |
-| Deployment    | Deployed to GitHub pages                                           | 1        | Required |
-| Documentation | Provided README with relevant information/details                  | 1        | Required |
+| Domain        | Task                                                              | Point(s) |          |
+| ------------- | ----------------------------------------------------------------- | -------- | -------- |
+| Creation      | Create index.html app.js styles.css                               | 0.25     | Required |
+|               | Linke all files to each other correctly                           | 0.25     | Required |
+|               | Place `<script>` and `<style>` at a correct place                 | 0.25     | Required |
+|               | Import 3rd party CDN correctly                                    | 0.25     | Required |
+| API Calls     | Make GET request to colorg API                                    | 2        | Required |
+|               | Handle unsuccessful calls                                         | 2        | Required |
+| Content       | Populate small cards like colorhunt to display each colour scheme | 2        | Required |
+|               | Add style to cards (3rd party CSS or own CSS)                     | 2        | Required |
+|               | Match div to corresponding colours                                | 1        | Required |
+|               | Show popup if API call is successful/failed                       | 2        | Optional |
+|               | Display name of corresponding tags                                | 2        | Optional |
+|               | Add a copy to clipboard button to copy the hex code               | 2        | Optional |
+|               | Make content mobile responsive                                    | 2        | Optional |
+| Deployment    | Deployed to GitHub pages                                          | 1        | Required |
+| Documentation | Provided README with relevant information/details                 | 1        | Required |
