@@ -1,16 +1,9 @@
 # Capstone 4
 
-When I was a kid, I loved playing solitaire on my computer.
+Since we just dabbled a little on VueJS and the basics of it, let's put it to good use!
 
-I was always so intrigued and impressed at how well the computer handles the game and shuffles it so perfectly.
-
-If you were old enough to remember, that was probably the only game we had back then.
-
-So to reminisce my childhood, we will be building a poker card game in this Capstone.
-
-However, since this is not a game development course, the focus on this project isn't at how well you can implement shuffling algorithms & deal cards.
-
-Instead, we will use the API service [https://deckofcardsapi.com/](https://deckofcardsapi.com/)
+In this capstone, we will be building a foreign currency convert app.
+We will be using the [exchangerate.host](https://exchangerate.host/#/#docs) API.
 
 Take some time to read over the docs before we begin.
 <br/>
@@ -18,15 +11,11 @@ Take some time to read over the docs before we begin.
 ### Instructions
 
 1. Create a VueJS application using the CLI
-2. Create a function called newDeck that calls the API and returns a new deck
-3. Setup this function to be called on a lifecycle hook on page load
-4. Setup this function to also be called if a user wants to get a new deck
-5. Create a function drawCard that can draw a card
-6. Display all the image of the cards you interact with, from the API
-
-### Reference
-
-[Codepen](https://codepen.io/craigcoles/pen/EaNRpa?html-preprocessor=haml) Example
+2. Create a two `<select>` input that both allows the user the select the foreign exchange pairing (eg. USD => SGD)
+3. Create a text input to show the rates between two currencies
+4. Call the API and apply the exchange rate
+5. Allow the user to change the text input and calculate the exchange rate
+6. Create a button to allow the user to swap the exchange rates (eg. USD => SGD swaps to SGD => USD)
 
 ### Capstone General Scoring Guide
 
@@ -38,16 +27,14 @@ Take some time to read over the docs before we begin.
 
 ### Capstone 4 Marking Guide
 
-| Domain          | Task                                                         | Point(s) |          |
-| --------------- | ------------------------------------------------------------ | -------- | -------- |
-| Creation        | Create a Vue Application using CLI                           | 1        | Required |
-| API Calls       | Create a newDeck function - this calls the new deck endpoint | 2        | Required |
-|                 | Create a button that calls newDeck                           | 2        | Required |
-|                 | Use a lifecycle hook to call newDeck on page load            | 2        | Required |
-| Data Management | Create a function drawCard that lets your draw a card        | 2        | Required |
-|                 | Display your card that you draw                              | 2        | Required |
-|                 | Display the number of remaining cards                        | 1        | Required |
-|                 | Create a function that lets you return a drawn card          | 2        | Optional |
-|                 | Reshuffle remaining cards                                    | 2        | Optional |
-| Style           | Add card dealing animation                                   | 2        | Optional |
-|                 | Add card popup animation when drawn                          | 2        | Optional |
+| Domain     | Task                                                                                                                                  | Point(s) |          |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- |
+| Creation   | Create a Vue Application using CLI                                                                                                    | 2        | Required |
+| API Calls  | Call the API and and retrieve the current exchange rate                                                                               | 2        | Required |
+| Content    | Create a two `<select>` input that both allows the user the select the foreign exchange pairing (eg. USD => SGD)                      | 2        | Required |
+|            | Create a text input to show the rates between two currencies                                                                          | 2        | Required |
+|            | Allow the user to change the text input and calculate the exchange rate                                                               | 2        | Required |
+|            | Create a button to allow the user to swap the exchange rates (eg. USD => SGD swaps to SGD => USD)                                     | 1        | Required |
+|            | Hide the option for another input if it's selected in the first one (eg. USD selected, unable to select USD again in the other input) | 4        | Optional |
+| Style      | Make app mobile responsive                                                                                                            | 4        | Optional |
+| Deployment | Deploy to a free hosting site                                                                                                         | 1        | Required |
