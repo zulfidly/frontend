@@ -1,0 +1,28 @@
+{
+  "name": "code-along",
+  "version": "1.0.0",
+  "description": "code along with teacher",
+  "main": "index.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "null"
+  ],
+  "author": "bass",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "passport": "^0.6.0",
+    "vuetify": "^2.6.14"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
