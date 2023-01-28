@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--try add some 1st party plugins-->
+    <script src="https://cdn.tailwindcss.com?plugins=typography,forms"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { bgColor: '#444444', },
+                    fontSize: {"2rem": '2rem'},
+                }
+            },
+            variants: {
+                extend: {
+                    // backgroundColor: ["active"],
+                    // fontSize: ["hover"],
+                },
+            },
+        }
+    </script>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+        }
+    </style>
+    <style type="text/tailwindcss">
+        .btn1 {
+            /* @apply bg-bgColor text-white border-none rounded-full py-4 px-8 text-2rem cursor-pointer inline-block shadow hover:bg-blue-500 active:bg-green-300; */
+            @apply bg-bgColor w-64 h-16 border-none rounded-full text-2rem cursor-pointer hover:bg-[#d3cefc] hover:text-white hover:text-4xl hover:italic hover:underline;
+        }
+        .btn2 {
+            @apply bg-[#1ABC9C] mt-16 w-64 h-16 border-none rounded-full active:bg-[#76D7C4];
+        }
+        .btn3 {
+            @apply bg-[#1ABC9C] mt-16 w-64 h-16 border-none rounded-full focus:bg-[#76D7C4];
+        }
+    </style>
+
+    <title>A2-PseudoClasses</title>
+</head>
+<body class="bg-[#d3bec2] p-4">
+    <button class="flex justify-center items-center btn1">Button1</button>
+    <button class="flex justify-center items-center btn2">active responds like: clicked/spacebar</button>
+    <button class="flex justify-center items-center btn3">focus responds like: pressing Tab</button>
+</body>
+</html>
