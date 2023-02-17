@@ -1,0 +1,9 @@
+body {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 15px;
+}
