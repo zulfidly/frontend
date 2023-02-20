@@ -1,0 +1,32 @@
+.color-1, .color-2, .color-3, .color-4 {
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 10px 15px;
+}
+
+.color-1 {
+    background: red;
+    height: 100px;
+}
+.color-2 {
+    background: purple;
+    height: 100px;
+}
+.color-3 {
+    background: green;
+    height: 100px;
+}
+.color-4 {
+    background: yellow;
+    height: 100px;
+}
+
+.hex {
+    background: white;
+    border-radius: 6px;
+    padding: 2px 6px;
+    opacity: 0.6;
+}
+.hex:hover {
+    opacity: 1;
+}

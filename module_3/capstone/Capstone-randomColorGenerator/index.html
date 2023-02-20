@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./main.js" defer></script>
+    <title>ColorGenerator</title>
+</head>
+<body>
+    <main>
+        <div class="container mx-auto py-[2em] px-[5em]">
+            <div id="alert-failed" class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+                <span class="font-medium">Error!</span> API fetch unsuccessful
+              </div>
+            <div id="alert-success" class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
+                <span class="font-medium">Success!</span> API fetch successful.
+            </div>
+    
+            <p class="text-6xl font-bold text-center my-7">Color Palettes</p>
+            <div class="grid grid-cols-3 gap-7" id="main-container">
+                <!-- <div class="card-container">
+                    <div class="color-1"></div>
+                    <div class="color-2"></div>
+                    <div class="color-3"></div>
+                    <div class="color-4"></div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" 
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+    </script>    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+
+</body>
+</html>
